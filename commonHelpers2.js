@@ -1,2 +1,2 @@
-import"./assets/styles-3c4e11fa.js";console.log("Snackbar");
+import"./assets/styles-03f7f560.js";import{i as o}from"./assets/vendor-77e16229.js";const s=document.querySelector(".form"),l=t=>{t.preventDefault();const e=t.target.elements.delay.value,r=t.target.elements.state.value;return s.reset(),new Promise((F,a)=>{setTimeout(()=>{r==="fulfilled"?F(e):a(e)},e)})};s.addEventListener("submit",t=>{l(t).then(e=>o.success({message:`Fulfilled promise in ${e}ms`,position:"topCenter",backgroundColor:"#59a10d",titleColor:"#FFFFFF",messageColor:"#FFFFFF",theme:"dark"})).catch(e=>o.error({message:`Rejected promise in ${e}ms`,position:"topCenter",backgroundColor:"#ef4040",titleColor:"#FFFFFF",messageColor:"#FFFFFF",theme:"dark"}))});
 //# sourceMappingURL=commonHelpers2.js.map
