@@ -2,12 +2,12 @@ h1 {
     margin-bottom: 20px;
 }
 
-input {
+#datetime-picker {
     width: 210px
 }
 
-.button {
-        
+.start-button {
+    width: 50px
 }
 
 .timer {
