@@ -1,0 +1,40 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: large;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    width: 273px;
+    height: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: large;
+}
+
+fieldset {
+    width: 250px;
+    margin: 10px 0px;
+    justify-content: center;
+}
+
+.list {
+    margin-right: 10px;
+}
+
+input {
+    width: 20px;
+}
+
+button {
+    width: 280px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+}
+

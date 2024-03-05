@@ -1,0 +1,33 @@
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 210px
+}
+
+.button {
+        
+}
+
+.timer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.value {
+    font-family: arial;
+    font-size: 35px;
+}
+
+.label {
+    font-family: arial;
+    font-size: 17px;
+}
